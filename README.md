@@ -10,7 +10,7 @@ This is a very basic mock limit order book with the bare functionalities needed 
 
 ### Structure
 
-The creation of this engine was loosely based on the following [article.](https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/)
+The creation of this engine was loosely based on [Limit Order Book for high-frequency trading (HFT) ](https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/) by WK Selph.
 
 The engine is designed such that limit prices are kept within binary heaps instead whilst the orders are kept within doubly-linked-lists on a price-level basis.
 
