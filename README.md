@@ -6,6 +6,8 @@ A limit order is an order that only executes if a given price condition is met. 
 
 Before meeting the price condition, it is left unexecuted and has to sit on the order book. A limit order book is a trading system used to manage these limit orders as well as match the lowest ask with the highest bid on a price-time priority basis.
 
+This is a very basic mock limit order book with the bare functionalities needed and without much optimisations.
+
 ### Structure
 
 The creation of this engine was loosely based on the following [article.](https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/)
